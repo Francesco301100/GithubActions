@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]
  
 
-jons:
+jonns:
   build:
     runs-on: ubuntu-latest
 
@@ -27,6 +27,7 @@ jons:
 
       - name: Build Docker Image
         run: docker build -t springboot-app .
+
 
 
 
